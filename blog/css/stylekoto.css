@@ -1,0 +1,71 @@
+.navbar a {
+    color: white;
+}
+
+.nav li a:hover{ 
+    background: orange;
+}
+
+.navbar-header a {
+    font-size: 25px; 
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    height: 300px;
+    padding: 100px 50px;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+#post {
+    border-bottom: 1px solid black;
+}
+
+#post h1 {
+    font-weight: bold;
+}
+
+#post h1 a {
+    color: yellow;
+    text-decoration: none;
+}
+
+#post h1 a:hover {
+    color: red;
+}
+
+.down-btn {
+    padding: 50px 0px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-default:hover {
+    background: red;
+}
+
+.nav-mycenter {
+    float: none;
+    display: table;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+.nav-mycenter li a:hover {
+    background: white;
+}
+
+.m-col {
+    -webkit-column-count: 3;
+}
